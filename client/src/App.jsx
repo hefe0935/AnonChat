@@ -49,7 +49,7 @@ function App() {
   const [screen, setScreen] = useState('landing'); // landing, chat, call
   const [sessionId] = useState(() => generateSessionId());
   const [roomCode, setRoomCode] = useState('');
-  const [signalingClient] = useState(() => new SignalingClient('http://localhost:5000'));
+  const [signalingClient] = useState(() => new SignalingClient('https://anonchat-k4ri.onrender.com/'));
   const [rtcManager] = useState(() => new RTCManager());
   const [localStream, setLocalStream] = useState(null);
   const [remoteStream, setRemoteStream] = useState(null);
