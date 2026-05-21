@@ -1,0 +1,33 @@
+{
+  "name": "anonymous-communication-client",
+  "version": "1.0.0",
+  "description": "Anonymous messaging and voice/video calling desktop app",
+  "type": "module",
+  "main": "dist-electron/main.js",
+  "homepage": "./",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "electron-dev": "vite && electron .",
+    "electron-build": "vite build && electron-builder",
+    "electron-builder": "electron-builder --publish never",
+    "start": "electron ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.7.2",
+    "framer-motion": "^10.16.16",
+    "peerjs": "^1.5.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.8",
+    "tailwindcss": "^3.3.6",
+    "postcss": "^8.4.32",
+    "autoprefixer": "^10.4.16",
+    "electron": "^27.0.0",
+    "electron-builder": "^24.6.4"
+  }
+}

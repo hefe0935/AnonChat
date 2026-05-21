@@ -1,0 +1,17 @@
+{
+  "name": "anonymous-communication-server",
+  "version": "1.0.0",
+  "description": "Signaling and relay server for anonymous communication",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "socket.io": "^4.7.2",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1"
+  }
+}
