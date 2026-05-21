@@ -6,7 +6,7 @@
 import io from 'socket.io-client';
 
 class SignalingClient {
-  constructor(serverUrl = 'http://localhost:5000') {
+  constructor(serverUrl = 'https://anonchat-k4ri.onrender.com') {
     this.socket = null;
     this.serverUrl = serverUrl;
     this.roomCode = null;
