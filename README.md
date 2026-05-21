@@ -1,5 +1,6 @@
 # AnonChat - Complete Guide
 
+Demo in https://anonchat-1y2.pages.dev/
 A fully working, privacy-first anonymous chatting site.
 ## What You Get
 
