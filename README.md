@@ -2,6 +2,7 @@
 
 Demo in https://anonchat-1y2.pages.dev/
 A fully working, privacy-first anonymous chatting site.
+(The demo's server can take some time to get up it sleeps when idle)
 ## What You Get
 
 - **Web Server** (Electron + React): A good looking web application(in my opinion)
